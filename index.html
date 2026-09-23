@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="ARACHNEX '26 - National Level Technical Symposium">
+    <title>ARACHNEX '26 | Cyber Web Symposium</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-core"></div>
+    <div class="cursor-web" id="cursorWeb"></div>
+
+    <!-- BACKGROUND CANVAS -->
+    <canvas id="webCanvas"></canvas>
+
+    <!-- SCANLINE EFFECT -->
+    <div class="scanlines"></div>
+
+    <!-- NAVIGATION -->
+    <header class="navbar" id="navbar">
+
+        <a href="#home" class="logo">
+            <span class="logo-symbol">◈</span>
+            <span>ARACHNEX<span class="logo-year">'26</span></span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#events">EVENTS</a>
+            <a href="#schedule">SCHEDULE</a>
+            <a href="#workshops">WORKSHOPS</a>
+            <a href="#register">REGISTER</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- ========================= -->
+    <!-- HERO SECTION -->
+    <!-- ========================= -->
+
+    <main>
+
+        <section class="hero section" id="home">
+
+            <div class="hero-grid"></div>
+
+            <div class="hero-web-orbit">
+
+                <div class="web-ring web-ring-1"></div>
+                <div class="web-ring web-ring-2"></div>
+                <div class="web-ring web-ring-3"></div>
+
+                <div class="orbit-node node-1"></div>
+                <div class="orbit-node node-2"></div>
+                <div class="orbit-node node-3"></div>
+                <div class="orbit-node node-4"></div>
+                <div class="orbit-node node-5"></div>
+                <div class="orbit-node node-6"></div>
+
+                <div class="web-center">
+                    <div class="spider-core">
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="hero-content">
+
+                <div class="event-status">
+                    <span class="status-dot"></span>
+                    NATIONAL LEVEL TECHNICAL SYMPOSIUM
+                </div>
+
+                <div class="hero-small">
+                    THE DIGITAL WEB OF INNOVATION
+                </div>
+
+                <h1>
+                    <span>ARACHNEX</span>
+                    <strong>'26</strong>
+                </h1>
+
+                <div class="hero-line">
+                    <span></span>
+                    CONNECT • CREATE • CONQUER
+                    <span></span>
+                </div>
+
+                <p>
+                    Enter a network where engineering, artificial intelligence,
+                    robotics and creativity collide to build the technologies
+                    of tomorrow.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#events" class="btn btn-primary">
+                        <span>EXPLORE EVENTS</span>
+                        <b>↗</b>
+                    </a>
+
+                    <a href="#register" class="btn btn-outline">
+                        REGISTER NOW
+                    </a>
+
+                </div>
+
+                <div class="hero-meta">
+
+                    <div>
+                        <small>DATE</small>
+                        <strong>18 OCT 2026</strong>
+                    </div>
+
+                    <div>
+                        <small>VENUE</small>
+                        <strong>TECH ARENA</strong>
+                    </div>
+
+                    <div>
+                        <small>MODE</small>
+                        <strong>OFFLINE</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="scroll-indicator">
+                <span>SCROLL TO ENTER THE WEB</span>
+                <div class="scroll-line"></div>
+            </div>
+
+        </section>
+
+
+        <!-- ========================= -->
+        <!-- ABOUT -->
+        <!-- ========================= -->
+
+        <section class="about section" id="about">
+
+            <div class="section-label">
+                <span>01</span>
+                THE NETWORK
+            </div>
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">WELCOME TO THE WEB</p>
+
+                    <h2>
+                        WHERE IDEAS
+                        <span>CONNECT.</span>
+                    </h2>
+                </div>
+
+                <p class="heading-description">
+                    ARACHNEX '26 is a fictional national-level technical
+                    symposium designed around innovation, engineering,
+                    emerging technologies and creative problem solving.
+                </p>
+
+            </div>
+
+
+            <div class="network-layout">
+
+                <div class="about-text">
+
+                    <p>
+                        Technology is not a single path. It is a network of
+                        connected ideas, disciplines and people.
+                    </p>
+
+                    <p>
+                        ARACHNEX brings together students and innovators
+                        through technical challenges, workshops and
+                        collaborative experiences.
+                    </p>
+
+                    <div class="about-stats">
+
+                        <div class="stat">
+                            <strong>06</strong>
+                            <span>TECH DOMAINS</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>12+</strong>
+                            <span>EVENTS</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>01</strong>
+                            <span>CONNECTED WEB</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="network-visual">
+
+                    <div class="network-circle">
+
+                        <div class="network-lines"></div>
+
+                        <div class="network-main">
+                            <span>CORE</span>
+                            <strong>TECH</strong>
+                        </div>
+
+                        <div class="tech-node tech-ai">
+                            <span>AI</span>
+                        </div>
+
+                        <div class="tech-node tech-robot">
+                            <span>ROBOTICS</span>
+                        </div>
+
+                        <div class="tech-node tech-cyber">
+                            <span>CYBER</span>
+                        </div>
+
+                        <div class="tech-node tech-ui">
+                            <span>UI / UX</span>
+                        </div>
+
+                        <div class="tech-node tech-iot">
+                            <span>IoT</span>
+                        </div>
+
+                        <div class="tech-node tech-vlsi">
+                            <span>VLSI</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================= -->
+        <!-- EVENTS -->
+        <!-- ========================= -->
+
+        <section class="events section" id="events">
+
+            <div class="section-label">
+                <span>02</span>
+                ENTER THE EVENTS
+            </div>
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">CHOOSE YOUR NODE</p>
+
+                    <h2>
+                        CONNECT.
+                        <span>COMPETE.</span>
+                    </h2>
+                </div>
+
+                <p class="heading-description">
+                    Choose your challenge and enter a different part of
+                    the ARACHNEX technology network.
+                </p>
+
+            </div>
+
+
+            <div class="events-grid">
+
+                <article class="event-card">
+
+                    <div class="event-number">01</div>
+
+                    <div class="event-icon">⌁</div>
+
+                    <span class="event-category">DEVELOPMENT</span>
+
+                    <h3>WEB HACK</h3>
+
+                    <p>
+                        Build a working digital experience under a
+                        time-bound innovation challenge.
+                    </p>
+
+                    <div class="event-info">
+                        <span>TEAM 2–4</span>
+                        <span>90 MIN</span>
+                    </div>
+
+                    <button class="event-btn" data-event="WEB HACK">
+                        ENTER NODE →
+                    </button>
+
+                </article>
+
+
+                <article class="event-card">
+
+                    <div class="event-number">02</div>
+
+                    <div class="event-icon">01</div>
+
+                    <span class="event-category">PROGRAMMING</span>
+
+                    <h3>CODE CRAWL</h3>
+
+                    <p>
+                        Solve logic-driven programming problems before
+                        the network closes.
+                    </p>
+
+                    <div class="event-info">
+                        <span>TEAM 1–2</span>
+                        <span>60 MIN</span>
+                    </div>
+
+                    <button class="event-btn" data-event="CODE CRAWL">
+                        ENTER NODE →
+                    </button>
+
+                </article>
+
+
+                <article class="event-card">
+
+                    <div class="event-number">03</div>
+
+                    <div class="event-icon">⌬</div>
+
+                    <span class="event-category">ARTIFICIAL INTELLIGENCE</span>
+
+                    <h3>NEURAL NET</h3>
+
+                    <p>
+                        Transform an AI-based idea into a practical
+                        technology concept.
+                    </p>
+
+                    <div class="event-info">
+                        <span>TEAM 2–3</span>
+                        <span>120 MIN</span>
+                    </div>
+
+                    <button class="event-btn" data-event="NEURAL NET">
+                        ENTER NODE →
+                    </button>
+
+                </article>
+
+
+                <article class="event-card">
+
+                    <div class="event-number">04</div>
+
+                    <div class="event-icon">⌁</div>
+
+                    <span class="event-category">ELECTRONICS</span>
+
+                    <h3>CIRCUIT SPIN</h3>
+
+                    <p>
+                        Solve practical electronics and embedded system
+                        challenges.
+                    </p>
+
+                    <div class="event-info">
+                        <span>TEAM 2–4</span>
+                        <span>90 MIN</span>
+                    </div>
+
+                    <button class="event-btn" data-event="CIRCUIT SPIN">
+                        ENTER NODE →
+                    </button>
+
+                </article>
+
+
+                <article class="event-card">
+
+                    <div class="event-number">05</div>
+
+                    <div class="event-icon">✦</div>
+
+                    <span class="event-category">DESIGN</span>
+
+                    <h3>PIXEL WEB</h3>
+
+                    <p>
+                        Design a futuristic interface around a real-world
+                        digital experience.
+                    </p>
+
+                    <div class="event-info">
+                        <span>TEAM 1–3</span>
+                        <span>90 MIN</span>
+                    </div>
+
+                    <button class="event-btn" data-event="PIXEL WEB">
+                        ENTER NODE →
+                    </button>
+
+                </article>
+
+
+                <article class="event-card">
+
+                    <div class="event-number">06</div>
+
+                    <div class="event-icon">◈</div>
+
+                    <span class="event-category">CYBERSECURITY</span>
+
+                    <h3>CYBER HUNT</h3>
+
+                    <p>
+                        Investigate digital clues and solve a sequence
+                        of cybersecurity challenges.
+                    </p>
+
+                    <div class="event-info">
+                        <span>TEAM 2–3</span>
+                        <span>120 MIN</span>
+                    </div>
+
+                    <button class="event-btn" data-event="CYBER HUNT">
+                        ENTER NODE →
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================= -->
+        <!-- WORKSHOPS -->
+        <!-- ========================= -->
+
+        <section class="workshops section" id="workshops">
+
+            <div class="section-label">
+                <span>03</span>
+                KNOWLEDGE NODES
+            </div>
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">LEARN FROM THE NETWORK</p>
+
+                    <h2>
+                        BUILD YOUR
+                        <span>SKILL WEB.</span>
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="workshop-grid">
+
+                <article class="workshop-card">
+                    <span>NODE_01</span>
+                    <h3>AI AGENTS</h3>
+                    <p>
+                        Explore autonomous AI systems and intelligent
+                        workflows.
+                    </p>
+                    <div class="workshop-line"></div>
+                    <strong>01:30 PM</strong>
+                </article>
+
+                <article class="workshop-card">
+                    <span>NODE_02</span>
+                    <h3>ROBOTICS</h3>
+                    <p>
+                        Discover autonomous machines and intelligent
+                        robotic systems.
+                    </p>
+                    <div class="workshop-line"></div>
+                    <strong>02:15 PM</strong>
+                </article>
+
+                <article class="workshop-card">
+                    <span>NODE_03</span>
+                    <h3>CYBER DEFENSE</h3>
+                    <p>
+                        Understand modern cybersecurity concepts and
+                        defensive techniques.
+                    </p>
+                    <div class="workshop-line"></div>
+                    <strong>03:00 PM</strong>
+                </article>
+
+                <article class="workshop-card">
+                    <span>NODE_04</span>
+                    <h3>FUTURE INTERFACES</h3>
+                    <p>
+                        Explore UI/UX systems and the next generation
+                        of digital interfaces.
+                    </p>
+                    <div class="workshop-line"></div>
+                    <strong>03:45 PM</strong>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================= -->
+        <!-- SCHEDULE -->
+        <!-- ========================= -->
+
+        <section class="schedule section" id="schedule">
+
+            <div class="section-label">
+                <span>04</span>
+                MISSION TIMELINE
+            </div>
+
+            <div class="schedule-title">
+                <p class="eyebrow">FOLLOW THE WEB</p>
+                <h2>ONE DAY. <span>ONE NETWORK.</span></h2>
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="timeline-web"></div>
+
+                <div class="timeline-item">
+                    <div class="timeline-node">01</div>
+                    <div class="timeline-content">
+                        <span>09:00</span>
+                        <h3>REGISTRATION</h3>
+                        <p>Enter the network and activate your event pass.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-node">02</div>
+                    <div class="timeline-content">
+                        <span>09:30</span>
+                        <h3>INAUGURATION</h3>
+                        <p>The ARACHNEX network officially goes live.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-node">03</div>
+                    <div class="timeline-content">
+                        <span>10:00</span>
+                        <h3>TECHNICAL EVENTS</h3>
+                        <p>Multiple challenge nodes open simultaneously.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-node">04</div>
+                    <div class="timeline-content">
+                        <span>13:30</span>
+                        <h3>WORKSHOPS</h3>
+                        <p>Connect with technology through hands-on sessions.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-node">05</div>
+                    <div class="timeline-content">
+                        <span>15:30</span>
+                        <h3>FINAL CHALLENGES</h3>
+                        <p>The final nodes compete for the network awards.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-node">06</div>
+                    <div class="timeline-content">
+                        <span>17:00</span>
+                        <h3>VALEDICTORY</h3>
+                        <p>Winners are revealed and the network closes.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================= -->
+        <!-- PRIZES -->
+        <!-- ========================= -->
+
+        <section class="prizes section">
+
+            <div class="section-label">
+                <span>05</span>
+                THE WEB AWARDS
+            </div>
+
+            <div class="prize-grid">
+
+                <div class="prize-card">
+                    <span>01 / WINNER</span>
+                    <strong>₹15,000</strong>
+                    <small>THE CORE NODE</small>
+                </div>
+
+                <div class="prize-card featured">
+                    <span>02 / RUNNER UP</span>
+                    <strong>₹10,000</strong>
+                    <small>THE NETWORK NODE</small>
+                </div>
+
+                <div class="prize-card">
+                    <span>03 / SPECIAL</span>
+                    <strong>₹5,000</strong>
+                    <small>THE SIGNAL NODE</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================= -->
+        <!-- REGISTRATION -->
+        <!-- ========================= -->
+
+        <section class="register section" id="register">
+
+            <div class="register-web"></div>
+
+            <div class="section-label">
+                <span>06</span>
+                JOIN THE WEB
+            </div>
+
+            <div class="register-layout">
+
+                <div class="register-info">
+
+                    <p class="eyebrow">ACTIVATE YOUR NODE</p>
+
+                    <h2>
+                        READY TO
+                        <span>CONNECT?</span>
+                    </h2>
+
+                    <p>
+                        Choose your event, enter your details and become
+                        part of the ARACHNEX network.
+                    </p>
+
+                    <div class="register-terminal">
+                        <span>NETWORK STATUS</span>
+                        <strong>
+                            <i></i> ONLINE
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <form class="registration-form" id="registrationForm">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="name">FULL NAME</label>
+                            <input
+                                type="text"
+                                id="name"
+                                placeholder="Enter your name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="example@email.com"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                placeholder="Enter phone number"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="college">INSTITUTION</label>
+                            <input
+                                type="text"
+                                id="college"
+                                placeholder="Institution name"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="department">DEPARTMENT</label>
+                            <input
+                                type="text"
+                                id="department"
+                                placeholder="ECE / CSE / EEE..."
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="year">YEAR</label>
+
+                            <select id="year" required>
+                                <option value="">SELECT YEAR</option>
+                                <option>1st YEAR</option>
+                                <option>2nd YEAR</option>
+                                <option>3rd YEAR</option>
+                                <option>4th YEAR</option>
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="eventSelect">SELECT EVENT</label>
+
+                        <select id="eventSelect" required>
+
+                            <option value="">CHOOSE EVENT</option>
+
+                            <option>WEB HACK</option>
+                            <option>CODE CRAWL</option>
+                            <option>NEURAL NET</option>
+                            <option>CIRCUIT SPIN</option>
+                            <option>PIXEL WEB</option>
+                            <option>CYBER HUNT</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button type="submit" class="submit-btn">
+                        <span>ACTIVATE REGISTRATION</span>
+                        <b>→</b>
+                    </button>
+
+                    <div class="form-message" id="formMessage"></div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <footer id="contact">
+
+        <div class="footer-web"></div>
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    <span class="logo-symbol">◈</span>
+                    <span>ARACHNEX<span class="logo-year">'26</span></span>
+                </a>
+
+                <p>
+                    CONNECT • CREATE • CONQUER
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <span>CONTACT NODE</span>
+
+                <p>connect@arachnex26.example</p>
+                <p>+91 90000 00000</p>
+                <p>Tech Arena, Innovation District</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>© 2026 ARACHNEX '26</span>
+
+            <span>ALL SYSTEMS ONLINE</span>
+
+            <span>TECH • INNOVATION • FUTURE</span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- EVENT MODAL -->
+
+    <div class="modal" id="eventModal">
+
+        <div class="modal-box">
+
+            <button class="modal-close" id="modalClose">×</button>
+
+            <span class="modal-label">EVENT NODE ACTIVATED</span>
+
+            <h2 id="modalTitle">WEB HACK</h2>
+
+            <div class="modal-web"></div>
+
+            <p id="modalDescription">
+                Enter this challenge node and build your solution
+                before the network closes.
+            </p>
+
+            <div class="modal-details">
+
+                <div>
+                    <span>TEAM</span>
+                    <strong>2–4</strong>
+                </div>
+
+                <div>
+                    <span>DURATION</span>
+                    <strong>90 MIN</strong>
+                </div>
+
+                <div>
+                    <span>MODE</span>
+                    <strong>OFFLINE</strong>
+                </div>
+
+            </div>
+
+            <a href="#register" class="modal-register" id="modalRegister">
+                REGISTER FOR NODE →
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
